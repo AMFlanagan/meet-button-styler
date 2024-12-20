@@ -1,0 +1,26 @@
+.meet-button-custom {
+  width: 300px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 4px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  
+  /* Bright colors */
+  background: linear-gradient(45deg, #FF1493, #FF4500, #FFD700) !important;
+  color: white !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+  
+  /* Additional styling */
+  border: 2px solid #FF1493 !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.meet-button-custom:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 15px rgba(255,20,147,0.5) !important;
+}
